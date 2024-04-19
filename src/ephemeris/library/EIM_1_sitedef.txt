@@ -1,0 +1,14 @@
+ 
+     \begindata
+ 
+         SITES         = ( 'EIM_1_ENU')
+ 
+         EIM_1_ENU_CENTER = 301
+         EIM_1_ENU_FRAME  = 'MOON_ME'
+         EIM_1_ENU_IDCODE = 301601
+         EIM_1_ENU_LATLON = ( 23.1007, 60.7826, -3.286 )
+         EIM_1_ENU_UP     = 'Z'
+         EIM_1_ENU_NORTH  = 'Y'
+ 
+      \begintext
+

@@ -1,0 +1,99 @@
+KPL/FK
+ 
+   FILE: EIM_1_ENU_FK.tpc.pc
+ 
+   This file was created by PINPOINT.
+ 
+   PINPOINT Version 3.2.0 --- September 6, 2016
+   PINPOINT RUN DATE/TIME:    2022-03-18T14:12:33
+   PINPOINT DEFINITIONS FILE: EIM_1_sitedef.txt
+   PINPOINT PCK FILE:         C:\copernicus\Copernicus_v4.6.0\support_files\generic_kernels\fk\satellites\moon_080317.tf.pc
+   PINPOINT SPK FILE:         EIM_1_ENU_SPK.bsp
+ 
+   The input definitions file is appended to this
+   file as a comment block.
+ 
+ 
+   Body-name mapping follows:
+ 
+\begindata
+ 
+   NAIF_BODY_NAME                      += 'EIM_1_ENU'
+   NAIF_BODY_CODE                      += 301601
+ 
+\begintext
+ 
+ 
+   Reference frame specifications follow:
+ 
+ 
+   Topocentric frame EIM_1_ENU_TOPO
+ 
+      The Z axis of this frame points toward the zenith.
+      The Y axis of this frame points North.
+ 
+      Topocentric frame EIM_1_ENU_TOPO is centered at the
+      site EIM_1_ENU, which has Cartesian coordinates
+ 
+         X (km):                  0.7785916634573E+03
+         Y (km):                  0.1392132835568E+04
+         Z (km):                  0.6803767740926E+03
+ 
+      and planetodetic coordinates
+ 
+         Longitude (deg):        60.7826000000000
+         Latitude  (deg):        23.1007000000000
+         Altitude   (km):        -0.3286000000001E+01
+ 
+      These planetodetic coordinates are expressed relative to
+      a reference spheroid having the dimensions
+ 
+         Equatorial radius (km):  1.7374000000000E+03
+         Polar radius      (km):  1.7374000000000E+03
+ 
+      All of the above coordinates are relative to the frame MOON_ME.
+ 
+ 
+\begindata
+ 
+   FRAME_EIM_1_ENU_TOPO                =  1301601
+   FRAME_1301601_NAME                  =  'EIM_1_ENU_TOPO'
+   FRAME_1301601_CLASS                 =  4
+   FRAME_1301601_CLASS_ID              =  1301601
+   FRAME_1301601_CENTER                =  301601
+ 
+   OBJECT_301601_FRAME                 =  'EIM_1_ENU_TOPO'
+ 
+   TKFRAME_1301601_RELATIVE            =  'MOON_ME'
+   TKFRAME_1301601_SPEC                =  'ANGLES'
+   TKFRAME_1301601_UNITS               =  'DEGREES'
+   TKFRAME_1301601_AXES                =  ( 3, 2, 3 )
+   TKFRAME_1301601_ANGLES              =  (  -60.7826000000000,
+                                             -66.8993000000000,
+                                             270.0000000000000 )
+ 
+\begintext
+ 
+ 
+Definitions file EIM_1_sitedef.txt
+--------------------------------------------------------------------------------
+ 
+ 
+     begindata
+ 
+         SITES         = ( 'EIM_1_ENU')
+ 
+         EIM_1_ENU_CENTER = 301
+         EIM_1_ENU_FRAME  = 'MOON_ME'
+         EIM_1_ENU_IDCODE = 301601
+         EIM_1_ENU_LATLON = ( 23.1007, 60.7826, -3.286 )
+         EIM_1_ENU_UP     = 'Z'
+         EIM_1_ENU_NORTH  = 'Y'
+ 
+      begintext
+ 
+ 
+begintext
+ 
+[End of definitions file]
+ 
